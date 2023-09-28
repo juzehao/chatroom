@@ -1,0 +1,4 @@
+s1：gcc   s1.c -lpthread -o s1  -lmysqlclient -L/usr/lib64/mysql
+chat:gcc chat.c -o chat -lpthread `pkg-config --libs --cflags gtk+-2.0`
+log:gcc log.c -o log -lpthread `pkg-config --libs --cflags gtk+-2.0`
+register:gcc register.c -o register -lpthread `pkg-config --libs --cflags gtk+-2.0`
